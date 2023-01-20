@@ -1,0 +1,351 @@
+:root {
+    --primary-font-family: "Roboto", sans-serif;
+    --logo-font-family: "Raleway", sans-serif;
+    --primary-brand-color: #4d5ae5;
+    --pressed-state-color: #404bbf;
+    --dark-color: #2e2f42;
+    --success-color: #31d0aa;
+    --text-color: #434455;
+    --subtle-text-color: #8e8f99;
+    --accent-color: #e7e9fc;
+    --light-color: #f4f4fd;
+    --row-gap: 48px;
+    --column-gap: 24px;
+}
+
+/* =============== COMPONENTS =============== */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    color: var(--text-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--pressed-state-color);
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--pressed-state-color);
+    color: #ffffff;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--dark-color);
+}
+
+.logo {
+    text-decoration: none;
+    font-family: var(--logo-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.hiden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+/* =============== /COMPONENTS =============== */
+
+/* =============== HEADER =============== */
+.header-section {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo-hdr {
+    color: var(--dark-color);
+    line-height: 1.33;
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.accent-logo {
+    color: var(--primary-brand-color);
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    color: var(--dark-color);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.menu-item-link,
+.contact-item-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-item {
+    line-height: 1.5;
+}
+
+/* =============== /HEADER =============== */
+
+/* =============== HERO =============== */
+.hero {
+    background-color: var(--dark-color);
+    color: #ffffff;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+    max-width: 494px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.modal-btn {
+    color: inherit;
+    background-color: var(--primary-brand-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* =============== /HERO =============== */
+
+/* =============== FEATURES =============== */
+.features-section {
+    padding-top: 120px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 264px;
+}
+
+.feature-item-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.feature-item-descr {
+    line-height: 1.5;
+}
+/* =============== /FEATURES =============== */
+
+/* =============== SERVICE =============== */
+.service-title {
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+}
+/* =============== /SERVICE =============== */
+
+/* =============== TEAM =============== */
+.team {
+    background-color: var(--light-color);
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+.team-title {
+    width: 162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.team-mmbr {
+    display: block;
+    background-color: #ffffff;
+    width: 264px;
+    padding-bottom: 32px;
+}
+
+.team-mmbr-descr {
+    width: 232px;
+    margin: 32px 16px 0 16px;
+    text-align: center;
+}
+
+.team-mmbr-name {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.team-mmbr-psn {
+    line-height: 1.5;
+}
+/* =============== /TEAM =============== */
+
+/* =============== FOOTER =============== */
+.footer {
+    background-color: var(--dark-color);
+    color: var(--accent-color);
+    line-height: 1.5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-info {
+    width: 264px;
+}
+
+.logo-ftr {
+    display: block;
+    color: var(--light-color);
+    line-height: 1.17;
+    margin-bottom: 16px;
+}
+/* =============== /FOOTER =============== */
+
+/* =============== PROJECTS =============== */
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.filter-btn {
+    color: var(--primary-brand-color);
+    background-color: var(--light-color);
+    border: 1px solid #e7e9fc;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--row-gap);
+    column-gap: var(--column-gap);
+}
+
+.project-item {
+    flex-basis: calc(100% / 3 - var(--column-gap));
+}
+
+.project-item-descr {
+    background-color: #ffffff;
+    border-left: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+    border-right: 1px solid var(--accent-color);
+    padding: 32px 0 32px 16px;
+}
+
+.project-item-name {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.project-item-text {
+    line-height: 1.5;
+}
+/* =============== /PROJECTS =============== */
