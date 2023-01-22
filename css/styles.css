@@ -344,6 +344,7 @@ img {
 .team-mmbr-soc-icon {
     width: 16px;
     height: 16px;
+    fill: var(--light-color);
 }
 
 .team-mmbr-soc-link:is(:hover, :focus) {
@@ -392,20 +393,10 @@ img {
     fill: currentColor;
 }
 
-/* .customer-link:is(:hover, :focus) {
-    border-color: var(--pressed-state-color)
-    color: var(--pressed-state-color);
-} */
-
 .customer-link:is(:hover, :focus) {
     border-color: var(--pressed-state-color);
     color: var(--pressed-state-color);
 }
-
-/* .customer-link:is(:hover, :focus) .customer-icon {
-    fill: var(--pressed-state-color);
-} */
-
 /* =============== /CUSTOMERS =============== */
 
 /* =============== FOOTER =============== */
@@ -470,6 +461,7 @@ img {
 .footer-soc-icon {
     width: 24px;
     height: 24px;
+    fill: var(--light-color);
 }
 /* =============== /FOOTER =============== */
 
