@@ -498,7 +498,7 @@ img {
 }
 
 .project-item {
-    flex-basis: calc(100% / 3 - var(--column-gap));
+    flex-basis: calc(100% - (var(var(--column-gap)*2)/ 3));
 }
 
 .project-item-link {
