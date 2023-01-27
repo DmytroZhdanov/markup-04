@@ -187,6 +187,8 @@ img {
     background-position: center;
     background-size: cover;
     color: #ffffff;
+    width: 1440px;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -518,10 +520,6 @@ img {
     padding: 32px 0 32px 16px;
     border: 1px solid var(--accent-color);
     border-top: none;
-}
-
-.project-item:hover .project-item-descr {
-    border: 0.5px solid var(--light-color);
 }
 
 .project-item-name {
